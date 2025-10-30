@@ -193,6 +193,7 @@ export const blogs = [{
     img: blog_1,
     name: "Top 5 Luxury Hotels in Kashmir You Must Visit",
     created_at: "2025-10-30",
+    bref : "Kashmir is home to some of the most exquisite luxury hotels in the world. From breathtaking views of snow-capped mountains to personalized services, these hotels promise unforgettable experiences.",
     category: { id: 1, name: "Luxury Hotels" },
     first_desc: <div>
       <p className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora">
@@ -267,6 +268,7 @@ export const blogs = [{
     img: blog_2,
     name: "Top Restaurants in Kashmir for Authentic Cuisine",
     created_at: "2025-10-25",
+    bref : "Kashmir is not only known for its natural beauty but also for its rich culinary heritage. Explore the top restaurants that serve authentic local flavors and international cuisine.",
     category: { id: 2, name: "Restaurants" },
     first_desc: <div>
       <p className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora">
@@ -330,6 +332,7 @@ export const blogs = [{
     id: 3,
     img: blog_3,
     name: "Top Outdoor Activities in Kashmir for Adventure Seekers",
+    bref: "Kashmir is a paradise for travelers and adventure enthusiasts. From trekking and skiing to river rafting and paragliding, the region offers endless outdoor activities.",
     created_at: "2025-10-28",
     category: { id: 3, name: "Travel & Leisure" },
     first_desc: <div>
@@ -389,6 +392,7 @@ export const blogs = [{
   img: blog_4, // updated image
   name: "Relaxing Mountain Retreats in Kashmir",
   created_at: "2025-10-27",
+  bref: "Escape to the majestic mountains of Kashmir. From cozy stays by the fireplace to strolls in lush gardens, these retreats offer serenity, fresh air, and breathtaking views.",
   category: { id: 4, name: "Travel & Leisure" },
   first_desc: <div>
     <p className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora">
