@@ -1,0 +1,16 @@
+.mySwiper5 .swiper-pagination {
+  position: inherit;
+  padding: 30px 0 !important;
+  padding-bottom: 10px !important;
+  bottom: var(--swiper-pagination-bottom, -15px) !important;
+}
+@media (min-width: 575px) {
+  .mySwiper5 .swiper-pagination {
+    padding: 55px 0 !important;
+  }
+}
+@media (min-width: 768px) {
+  .mySwiper5 .swiper-pagination {
+    display: none;
+  }
+}

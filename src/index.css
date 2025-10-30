@@ -1,0 +1,164 @@
+/* 
+    Project Name: Royella.
+    Project Author: Dream It Solution.
+    Developer Name: Hasib Ahamed Sakib.
+    Start Date: 00-08-2023
+    Version:0.0.1
+    &copy: Dream It web Solution.
+*/
+/* Google Fonts Link */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
+
+/* Tailwind  layer configure */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* added select highlight color */
+::selection {
+  background-color: #c19d68;
+  color: white;
+}
+/* container code */
+.Container {
+  @apply w-full sm:w-[540px] md:w-[720px] lg:w-[960px] xl:w-[1140px] 2xl:w-[1330px]  px-2 md:px-3 lg:px-4 xl:px-5 mx-auto;
+}
+.Container3 {
+  @apply w-full xl:w-[1140px] 2xl:w-[1330px]  mx-auto;
+}
+.subContainer {
+  @apply w-full  md:w-[720px] lg:w-[960px] xl:w-[1140px] 2xl:w-[1330px]  px-2 md:px-3 lg:px-4 xl:px-5 mx-auto;
+}
+.Container-Hero {
+  @apply w-full sm:w-[540px] md:w-[720px] xl:w-[960px] 2xl:w-[1100px]  3xl:w-[1250px]  px-2 md:px-3 lg:px-4 xl:px-5 mx-auto;
+}
+/* hover animation */
+.hover-animBg {
+  @apply relative z-[1] after:absolute after:inset-0 after:content-[""] after:bg-[#C19C67] after:rounded-full after:w-full after:h-full after:scale-0 after:transition-all after:duration-500 after:z-[-1] after:top-0 after:left-0 hover:after:scale-[1];
+}
+/* primary button */
+.btn-primary {
+  @apply h-[40px] lg:h-[60px] w-[145px] sm:w-[155px] lg:w-[170px] 2xl:w-[170px] bg-khaki relative before:w-8 before:h-[1px] before:bg-khaki before:absolute before:left-0 before:top-[48px]  lg:before:top-[65px] xl:before:top-16 text-white uppercase text-sm lg:text-base font-medium font-Garamond hover-animBg after:bg-normalBlack after:rounded-none hover:border-normalBlack hover:before:bg-normalBlack transition-all duration-300;
+}
+.btn-primary1 {
+  @apply h-[40px] lg:h-[50px] w-[145px] 2xl:w-[170px] bg-khaki relative before:w-8 before:h-[1px] before:bg-khaki before:absolute before:left-0 before:top-[48px]  lg:before:top-[60px] xl:before:top-14 text-white uppercase text-sm lg:text-base font-medium  font-Garamond hover-animBg after:bg-normalBlack after:rounded-none hover:border-normalBlack hover:before:bg-normalBlack transition-all duration-300;
+}
+
+.btn-secondary {
+  @apply border border-white w-[145px] sm:w-[155px] lg:w-[170px] 2xl:w-[185px] 3xl:w-[192px] h-[48px] lg:h-[52px] 2xl:h-[60px] relative before:w-8 before:h-[1px] before:bg-white before:absolute before:left-0  md:before:top-[60px] lg:before:top-[65px] 2xl:before:top-[70px] text-white uppercase text-sm lg:text-base font-medium font-Garamond hover-animBg after:rounded-none hover:border-khaki hover:before:bg-khaki transition-all duration-300;
+}
+
+.btn-items {
+  @apply border border-lightBlack dark:border-white  w-[145px] sm:w-[155px] lg:w-[170px] 2xl:w-[185px] 3xl:w-[192px] h-[48px] relative before:w-8 before:h-[1px] before:bg-lightBlack dark:before:bg-white before:absolute before:left-0 before:top-14 text-lightBlack dark:text-white uppercase text-sm sm:text-base font-medium font-Garamond hover-animBg after:rounded-none hover:border-khaki hover:before:bg-khaki hover:text-white transition-all duration-300;
+}
+.btn-subscribe {
+  @apply h-[56px] bg-khaki w-full text-white uppercase text-base font-medium  font-Garamond;
+}
+
+/* video animation */
+.video-animation {
+  animation: ripple 1.6s ease-out infinite;
+}
+
+@keyframes ripple {
+  0%,
+  35% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+
+/* Move animation */
+.animation-move1 {
+  animation: MOVE-BG1 3s infinite ease alternate;
+}
+.animation-move {
+  animation: MOVE-BG 3s infinite ease alternate;
+}
+
+/* input icon color */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: brightness(24.3) invert(15);
+}
+
+select option:checked {
+  background: -webkit-linear-gradient(bottom, #633c05 0%, #c19d68 100%);
+}
+option:checked,
+option:hover {
+  background-color: #c19d68;
+  /* padding: 6px; */
+  color: white;
+}
+
+/* slider responsive */
+
+@keyframes MOVE-BG1 {
+  from {
+    transform: translateX(-2px);
+  }
+  to {
+    transform: translateX(555px);
+  }
+}
+/* Move bg */
+@keyframes MOVE-BG {
+  from {
+    transform: translateX(-2px);
+  }
+  to {
+    transform: translateX(540px);
+  }
+}
+
+/* Home three some code */
+.boxShadow:hover {
+  box-shadow: 0px 5px 15px #cccccc40;
+}
+
+/* home-2 => offers*/
+.offers {
+  @apply bg-white dark:bg-lightBlack px-[25px] py-10 absolute bottom-[-340px] lg:bottom-[-430px] 3xl:bottom-[-340px] group-hover:bottom-0 left-[18px] right-[18px] my-[18px] transition-all duration-500;
+}
+
+/* home-4 */
+.extra-service {
+  @apply px-[30px]  text-center  relative z-[1] before:absolute before:w-0 before:h-full before:left-1/2 before:top-0 before:bg-lightBlack before:bg-opacity-[0.7] dark:before:bg-opacity-[0.7] before:z-[-1] before:transition-all before:duration-500 before:hover:w-full before:hover:left-0 overflow-hidden bg-center bg-cover;
+}
+
+/* gallery code */
+.gallery-effect {
+  @apply relative  before:absolute before:w-0 before:h-full before:left-1/2 before:top-0 before:bg-lightBlack before:bg-opacity-[0.9] dark:before:bg-opacity-[0.9] before:z-[1] before:transition-all before:duration-500 before:hover:w-full before:hover:left-0 bg-no-repeat bg-center bg-cover;
+}
+
+/* home-5 */
+.apartment-effect {
+  @apply before:transition-all before:duration-500 relative before:absolute before:h-full bg-white dark:bg-lightBlack  before:bg-[url('/images/home-5/appartment-bg.png')] before:content-[''] before:w-0 hover:before:w-full px-10 md:px-7 lg:px-10 py-7 lg:py-8 xl:py-[40px] 2xl:px-0  2xl:py-0 grid items-center justify-center  2xl:w-[280px] h-[140px] hover:shadow bg-cover bg-center before:top-0 before:right-0 before:hover:left-0 z-[1] before:z-[-1] before:bg-no-repeat before:bg-cover before:bg-center;
+}
+
+/* animation move */
+.animation-move {
+  animation: MOVE-BG 3s infinite ease alternate;
+}
+@keyframes MOVE-BG {
+  from {
+    transform: translateX(-2px);
+  }
+  to {
+    transform: translateX(35px);
+  }
+}
+
+/* Inner page */
+
+.member {
+  @apply p-[30px] border border-lightGray dark:border-gray px-[30px]  text-center  relative z-[1] before:absolute before:w-0 before:h-full before:left-1/2 before:top-0 before:bg-khaki before:z-[-1] before:transition-all before:duration-500 before:hover:w-full before:hover:left-0 overflow-hidden bg-center bg-cover;
+}

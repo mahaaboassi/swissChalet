@@ -1,0 +1,136 @@
+.swiper-button-prev,
+.swiper-rtl .swiper-button-prev {
+  left: var(--swiper-navigation-sides-offset, 10px);
+
+  left: 92%;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next:after {
+  font-size: 20px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 90%);
+  border: 1px solid #acacac;
+
+  padding: 10px;
+
+  color: white;
+  width: 50px;
+  height: 50px;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: #c19d68;
+  border: none;
+}
+
+.mySwiper .swiper-pagination {
+  position: inherit;
+  /* padding: 70px 0; */
+  padding-bottom: 10px;
+  bottom: var(--swiper-pagination-bottom, -15px) !important;
+}
+
+.swiper-pagination-bullet-active {
+  color: #c19d68;
+}
+
+/* slider responsive */
+@media (min-width: 320px) {
+  .mySwiper .swiper-button-prev,
+  .mySwiper .swiper-button-next {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-prev {
+    left: 89%;
+  }
+  .mySwiper .swiper-button-prev,
+  .mySwiper .swiper-button-next {
+    display: block;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 1200px) {
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-prev {
+    left: 91%;
+  }
+}
+@media (min-width: 1400px) {
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-prev {
+    left: 92%;
+  }
+}
+@media (min-width: 1700px) {
+  .swiper-button-next {
+    margin-right: 0px;
+  }
+}
+@media (min-width: 1920px) {
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-prev {
+    left: 93%;
+  }
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-next {
+    margin-right: 30px;
+  }
+  .swiper-button-next {
+    margin-right: 20px;
+  }
+}
+.swiper-pagination {
+  display: none;
+}
+
+/* Button */
+/* .hero-btn {
+  border: 2px solid #c19d68;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #fff;
+}
+
+.hero-btn::before {
+  content: "";
+  width: 100%;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #c19d68;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.hero-btn:hover::before {
+  width: 0;
+}
+
+.hero-btn:hover {
+  color: #fff;
+} */

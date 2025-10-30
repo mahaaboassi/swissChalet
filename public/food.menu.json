@@ -1,0 +1,51 @@
+[
+  {
+    "category": "lunch",
+    "title": "Fried Rice",
+    "image": "/images/inner/food-1.jpg",
+    "description": "Professionally deliver fully researched scenarios with turnkey communities competently",
+    "price": "49.00"
+  },
+  {
+    "category": "lunch",
+    "title": "Chicken",
+    "image": "/images/inner/food-2.jpg",
+    "description": "Professionally deliver fully researched scenarios with turnkey communities competently",
+    "price": "29.00"
+  },
+  {
+    "category": "dinner",
+    "title": "Fry Fishes",
+    "image": "/images/inner/food-3.jpg",
+    "description": "Professionally deliver fully researched scenarios with turnkey communities competently",
+    "price": "30.00"
+  },
+  {
+    "category": "dinner",
+    "title": "Vegetables",
+    "image": "/images/inner/food-4.jpg",
+    "description": "Professionally deliver fully researched scenarios with turnkey communities competently",
+    "price": "22.00"
+  },
+  {
+    "category": "supper",
+    "title": "Orange Chicken",
+    "image": "/images/inner/food-2.jpg",
+    "description": "Professionally deliver fully researched scenarios with turnkey communities competently",
+    "price": "22.00"
+  },
+  {
+    "category": "breakfast",
+    "title": "Broccoli Shrimp Alfredo",
+    "image": "/images/inner/food-1.jpg",
+    "description": "Professionally deliver fully researched scenarios with turnkey communities competently",
+    "price": "22.00"
+  },
+  {
+    "category": "breakfast",
+    "title": "Broccoli Shrimp Alfredo",
+    "image": "/images/inner/food-5.jpg",
+    "description": "Professionally deliver fully researched scenarios with turnkey communities competently",
+    "price": "22.00"
+  }
+]

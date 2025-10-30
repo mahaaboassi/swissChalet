@@ -1,0 +1,34 @@
+.mySwiper1 .swiper-button-next {
+  display: none;
+}
+.mySwiper1 .swiper-button-prev {
+  display: none;
+}
+
+.mySwiper1 .swiper-pagination {
+  background-color: white;
+
+  padding: 5px;
+  width: 100px !important;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  left: 45% !important;
+
+  bottom: 0 !important;
+}
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background-color: #c19d68 !important;
+  height: 10px !important;
+  width: 10px !important;
+}
+
+/* slider responsive */
+@media (min-width: 320px) {
+  .mySwiper1 .swiper-pagination {
+    background-color: white;
+    left: 35% !important;
+    bottom: 0 !important;
+  }
+}
